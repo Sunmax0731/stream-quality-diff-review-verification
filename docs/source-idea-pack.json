@@ -1,0 +1,66 @@
+{
+  "rank": 66,
+  "domain": "OBSStreaming",
+  "ideaNo": 4,
+  "ideaName": "配信品質検品・差分レビュー・手動検証",
+  "repository": "stream-quality-diff-review-verification",
+  "publish": "GitHub Release / BOOTH",
+  "createdIdeaLookup": {
+    "exactPathFirst": "D:/AI/OBSStreaming/created_idea_004_stream-quality-diff-review-verification",
+    "exactPathExists": true,
+    "fallbackSearched": false,
+    "fallbackResults": [],
+    "notes": "完全一致の created_idea と ZIP を使用した。"
+  },
+  "zipLookup": {
+    "exactZip": "D:/AI/OBSStreaming/created_idea_004_stream-quality-diff-review-verification/idea_004_stream-quality-diff-review-verification.zip",
+    "exactZipExists": true,
+    "requiredFiles": [
+      "metadata.json",
+      "README.md",
+      "01_REQUIREMENTS.md",
+      "02_SPECIFICATION.md",
+      "03_DESIGN.md",
+      "04_IMPLEMENTATION_PLAN.md",
+      "05_TEST_PLAN.md",
+      "06_RELEASE_CHECKLIST.md"
+    ],
+    "missingRequiredFiles": []
+  },
+  "zipMetadata": {
+    "domain": "OBSStreaming",
+    "no": 4,
+    "platform": "OBSStreaming",
+    "field": "検品・レビュー",
+    "integration": "",
+    "idea": "配信品質検品・差分レビュー・手動検証",
+    "overview": "音量、解像度、シーン差分、手動確認、対応状況を同じ検品ビューで扱う。",
+    "problem": "自動チェックと人の目視確認が分かれ、配信事故や対応漏れが起きやすい。",
+    "similar": "OBS Stats, Streamlabs, Twitch Inspector, GitHub Issues",
+    "diff": "配信前の自動検査と手動確認を同じチェックリストにまとめる。",
+    "parent": "Plugins",
+    "startPromptFile": "START_PROMPT.md",
+    "documents": [
+      "START_PROMPT.md",
+      "README.md",
+      "01_REQUIREMENTS.md",
+      "02_SPECIFICATION.md",
+      "03_DESIGN.md",
+      "04_IMPLEMENTATION_PLAN.md",
+      "05_TEST_PLAN.md",
+      "06_RELEASE_CHECKLIST.md",
+      "metadata.json"
+    ],
+    "repositoryName": "stream-quality-diff-review-verification",
+    "repositoryTitle": "stream-quality-diff-review-verification",
+    "zipFile": "idea_004_stream-quality-diff-review-verification.zip"
+  },
+  "metadataRepositoryMatches": true,
+  "metadataZipMatches": true,
+  "initialRepositoryReadme": {
+    "existedBeforeCreation": false,
+    "note": "正式 repo が存在しなかったため README.md は存在しないと記録し、domain docs と created_idea ZIP を根拠に作成した。"
+  },
+  "mojibakePolicy": "ZIP本文や既存Markdownは丸写しせず、PICKUP行、metadata、domain docsから正式docsを再構成する。",
+  "unstableEvidencePolicy": "ZIPサイズ、生成時刻、絶対一時パスはQCDS固定根拠に使わない。"
+}
