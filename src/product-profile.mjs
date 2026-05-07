@@ -1,0 +1,32 @@
+export const productProfile = {
+  "repository": "stream-quality-diff-review-verification",
+  "title": "配信品質検品・差分レビュー・手動検証",
+  "domain": "OBSStreaming",
+  "hostApp": null,
+  "rank": 66,
+  "tier": "P2",
+  "ideaNo": 4,
+  "overview": "音量、解像度、シーン差分、手動確認、対応状況を同じ検品ビューで扱う。",
+  "problem": "自動チェックと人の目視確認が分かれ、配信事故や対応漏れが起きやすい。",
+  "differentiation": "配信前の自動検査と手動確認を同じチェックリストにまとめる。",
+  "publish": "GitHub Release / BOOTH",
+  "surface": "OBSStreaming product spec + CLI validation core",
+  "entity": "stream quality review",
+  "requiredFields": [
+    "id",
+    "title",
+    "baselinePath",
+    "currentPath",
+    "checklist",
+    "owner"
+  ],
+  "warningField": "manualFocus",
+  "qcdsManualTestCap": "S-",
+  "qcdsTarget": "A-",
+  "benchmarkRepos": [
+    "Sunmax0731/project-portfolio-generator",
+    "Sunmax0731/release-output-check-flow",
+    "Sunmax0731/movie-telop-transcriber",
+    "Sunmax0731/codex-remote-android"
+  ]
+};

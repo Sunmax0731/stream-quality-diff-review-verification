@@ -1,0 +1,21 @@
+{
+  "product": {
+    "repository": "stream-quality-diff-review-verification",
+    "title": "配信品質検品・差分レビュー・手動検証"
+  },
+  "items": [
+    {
+      "id": "stream-quality-diff-review-verification-happy",
+      "title": "配信品質検品・差分レビュー・手動検証 happy",
+      "status": "ready",
+      "tags": [
+        "obsstreaming"
+      ],
+      "baselinePath": "samples/baseline.json",
+      "currentPath": "samples/current.json",
+      "checklist": "audio,video,scene",
+      "owner": "closed-alpha",
+      "manualFocus": "配信品質検品・差分レビュー・手動検証 の確認観点"
+    }
+  ]
+}
