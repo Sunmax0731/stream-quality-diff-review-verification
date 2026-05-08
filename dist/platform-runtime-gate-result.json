@@ -1,0 +1,8 @@
+{
+  "product": "stream-quality-diff-review-verification",
+  "platformType": "obs-workflow-tool",
+  "pass": true,
+  "method": "runtime-gate",
+  "manualTest": "not-run-by-codex",
+  "packageTest": true
+}
