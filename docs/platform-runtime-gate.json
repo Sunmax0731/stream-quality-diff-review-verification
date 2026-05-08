@@ -1,0 +1,11 @@
+{
+  "product": "stream-quality-diff-review-verification",
+  "title": "配信品質検品・差分レビュー・手動検証",
+  "domain": "OBSStreaming",
+  "ideaNo": 4,
+  "platformType": "obs-workflow-tool",
+  "expectedPublicTarget": "GitHub Release / BOOTH",
+  "browser": null,
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
